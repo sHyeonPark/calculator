@@ -8,6 +8,8 @@ int main(int argc, char *argv[])
     int b = atoi(argv[2]);
 
     printf("<===============>\n");
+    printf("Calculation Start!\n");
+    printf("<===============>\n");
     printf("%d + %d => %d\n", a, b, add(a, b));
     printf("<===============>\n");
     printf("%d - %d => %d\n", a, b, sub(a, b));
@@ -15,6 +17,8 @@ int main(int argc, char *argv[])
     printf("%d * %d => %d\n", a, b, mul(a, b));
     printf("<===============>\n");
     printf("%d / %d => %d\n", a, b, dur(a, b));
+    printf("<===============>\n");
+    printf("Calculation Done!\n");
     printf("<===============>\n");
 
     return 0;
